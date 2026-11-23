@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meso — One pump. One face.</title>
+  <meta name="description" content="Meso is skincare that measures itself. A press-and-hold pump dispenses the exact dose — sensitive and combination skin first." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='50' fill='%231c1916'/><text x='50' y='68' font-size='58' text-anchor='middle' fill='%23faf7f2' font-family='Georgia'>M</text></svg>" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" aria-label="Meso home"><b>MESO</b><small>/ meh·so /</small></a>
+      <nav class="nav-links">
+        <a href="#pump">The Pump</a>
+        <a href="#products">Products</a>
+        <a href="#dose">Find Your Dose</a>
+        <a href="story.html" class="pill">Our Story →</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO — AI-generated video (autoplay + loop) ============ -->
+  <section class="hero" id="top">
+    <!-- AI-generated hero video (Gemini / Veo) -->
+    <video autoplay muted loop playsinline preload="auto" poster="assets/meso-poster.jpg" aria-hidden="true">
+      <source src="assets/meso-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <div>
+        <p class="eyebrow">Meso — Shona for “face”</p>
+        <h1>One pump.<em>One face.</em></h1>
+      </div>
+      <div class="hero-side">
+        <p>Skincare that measures itself. Press, hold, and our pump dispenses the exact dose your skin needs — then stops.</p>
+        <div class="hero-actions">
+          <a href="#dose" class="btn btn-light">Find your dose</a>
+          <a href="story.html" class="btn btn-ghost">Read our story <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Sensitive skin first</span><span>Combination-friendly</span><span>Metered dose</span><span>No more guesswork</span><span>Shade-matched serums</span><span>One pump, one face</span>
+      <span>Sensitive skin first</span><span>Combination-friendly</span><span>Metered dose</span><span>No more guesswork</span><span>Shade-matched serums</span><span>One pump, one face</span>
+    </div>
+  </div>
+
+  <!-- ============ MANIFESTO / THE PUMP ============ -->
+  <section class="section manifesto" id="pump">
+    <div class="wrap">
+      <p class="eyebrow reveal">The problem with “pea-sized”</p>
+      <p class="big reveal">Skincare tells you to use <span class="strike">a pea</span>, <span class="strike">a dime</span>, <span class="strike">a few drops</span>. Your face deserves a <em>measurement</em>, not a metaphor.</p>
+      <div class="steps3 reveal">
+        <div>
+          <span class="num">01</span>
+          <h3>Press.</h3>
+          <p>Every Meso bottle has a press-and-hold pump. No squeezing, no shaking, no eyeballing.</p>
+        </div>
+        <div>
+          <span class="num">02</span>
+          <h3>Hold.</h3>
+          <p>The pump dispenses the recommended amount for your whole face — calibrated per product.</p>
+        </div>
+        <div>
+          <span class="num">03</span>
+          <h3>Stop.</h3>
+          <p>It stops on its own. Not too much, not too little. Just one face.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCTS ============ -->
+  <section class="section products" id="products">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">The first edit</p>
+          <h2>Shade-match <em>your marks.</em></h2>
+        </div>
+        <p>We borrowed from makeup. Instead of one serum for every dark spot, Meso serums are matched to the color of your marks — like finding your foundation shade.</p>
+      </div>
+
+      <div class="grid3">
+        <article class="product reveal">
+          <div class="product-stage" style="background:#dfe3d9">
+            <div class="bottle"><div class="nozzle"></div><div class="head"></div><div class="neck"></div><div class="body" style="--c:var(--sage)"><span class="label">CLEANSE</span></div></div>
+          </div>
+          <span class="tag">In development</span>
+          <h3>The Cleanser</h3>
+          <p>A gentle daily wash built sensitive-first, so combination skin feels clean — never stripped.</p>
+          <div class="meta"><span><span class="dot" style="background:var(--sage)"></span>AM + PM</span><span>1 pump</span></div>
+        </article>
+
+        <article class="product reveal">
+          <div class="product-stage" style="background:#efd9d3">
+            <div class="bottle"><div class="nozzle"></div><div class="head"></div><div class="neck"></div><div class="body" style="--c:var(--rose)"><span class="label">RED MARKS</span></div></div>
+          </div>
+          <span class="tag">Serum No. 1 · In development</span>
+          <h3>Red Marks</h3>
+          <p>For the pink and red marks a breakout leaves behind. Calm the color, keep the barrier happy.</p>
+          <div class="meta"><span><span class="dot" style="background:var(--rose)"></span>Pink → red marks</span><span>1 pump</span></div>
+        </article>
+
+        <article class="product reveal">
+          <div class="product-stage" style="background:#e8dac6">
+            <div class="bottle"><div class="nozzle"></div><div class="head"></div><div class="neck"></div><div class="body" style="--c:var(--amber)"><span class="label">BROWN MARKS</span></div></div>
+          </div>
+          <span class="tag">Serum No. 2 · In development</span>
+          <h3>Brown Marks</h3>
+          <p>For dark marks and uneven tone that linger long after the spot is gone. Fade, don't fight.</p>
+          <div class="meta"><span><span class="dot" style="background:var(--amber)"></span>Brown → dark marks</span><span>1 pump</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ X-FACTOR: FIND YOUR DOSE ============ -->
+  <section class="section dose" id="dose">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Find your dose</p>
+          <h2>Build your ritual. <em>Feel the pump.</em></h2>
+        </div>
+        <p>Two questions. One personalized Meso ritual. Then press and hold the pump to see exactly how much goes on your face.</p>
+      </div>
+
+      <div class="dose-shell reveal" id="dose-app">
+        <!-- Quiz -->
+        <div class="panel">
+          <div class="progress" aria-hidden="true"><i></i><i></i><i></i></div>
+
+          <div class="q">
+            <p class="eyebrow">Step 1 of 2</p>
+            <h3>What do your marks look like?</h3>
+            <div class="options">
+              <button type="button" class="opt" data-key="marks" data-val="red"><span class="sw" style="background:var(--rose)"></span>Pink or red</button>
+              <button type="button" class="opt" data-key="marks" data-val="brown"><span class="sw" style="background:var(--amber)"></span>Brown or dark</button>
+              <button type="button" class="opt" data-key="marks" data-val="both"><span class="sw" style="background:linear-gradient(90deg,var(--rose) 50%,var(--amber) 50%)"></span>A bit of both</button>
+              <button type="button" class="opt" data-key="marks" data-val="none"><span class="sw" style="background:var(--sage)"></span>No marks — just clean</button>
+            </div>
+          </div>
+
+          <div class="q q-hidden">
+            <p class="eyebrow">Step 2 of 2</p>
+            <h3>How would you describe your skin?</h3>
+            <div class="options">
+              <button type="button" class="opt" data-key="type" data-val="sensitive">Sensitive</button>
+              <button type="button" class="opt" data-key="type" data-val="combination">Combination</button>
+              <button type="button" class="opt" data-key="type" data-val="oily">Oily</button>
+              <button type="button" class="opt" data-key="type" data-val="dry">Dry</button>
+              <button type="button" class="opt" data-key="type" data-val="normal">Normal</button>
+            </div>
+          </div>
+
+          <div class="q q-hidden">
+            <p class="eyebrow">Your Meso ritual</p>
+            <h3 id="ritual-title">Your ritual.</h3>
+            <div class="ritual-group"><h4>Morning</h4><ul class="ritual" id="ritual-am"></ul></div>
+            <div class="ritual-group"><h4>Night</h4><ul class="ritual" id="ritual-pm"></ul></div>
+            <p class="tip" id="ritual-tip"></p>
+            <p class="pump-sub" style="margin-bottom:1rem">Tap any product to load it into the pump →</p>
+            <button type="button" class="link-btn" data-restart>Start over</button>
+          </div>
+        </div>
+
+        <!-- Press-and-hold pump demo -->
+        <div class="panel pump-panel">
+          <p class="eyebrow">Try the pump</p>
+          <div class="pump-stage">
+            <div class="bottle pump-bottle" id="pump-bottle">
+              <div class="nozzle"></div><div class="head"></div><div class="neck"></div>
+              <div class="body"><span class="label">CLEANSE</span></div>
+            </div>
+            <div class="palm"><div class="drop" id="drop"></div></div>
+          </div>
+          <p class="pump-msg" id="pump-msg" aria-live="polite">Press and hold.</p>
+          <button type="button" class="hold-btn" id="hold-btn" aria-label="Press and hold to dispense one dose">
+            <svg viewBox="0 0 160 160" aria-hidden="true"><circle class="track" cx="80" cy="80" r="72"/><circle class="bar" cx="80" cy="80" r="72"/></svg>
+            Press<br/>&amp; hold
+          </button>
+          <p class="pump-sub" id="pump-sub">The Cleanser — feel the dose.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MESO SCAN TEASER ============ -->
+  <section class="section">
+    <div class="wrap teaser">
+      <div class="scan-visual reveal" aria-hidden="true">
+        <div class="mark" style="width:16%;height:16%;left:30%;top:36%;--mc:var(--rose)"><span>Redness</span></div>
+        <div class="mark" style="width:12%;height:12%;left:58%;top:56%;--mc:var(--amber)"><span>Dark mark</span></div>
+        <div class="mark" style="width:14%;height:14%;left:40%;top:68%;--mc:#c9b9a3"><span>Dryness</span></div>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Coming next · Meso Scan</p>
+        <h2 class="h2">Your face, <em>read like a map.</em></h2>
+        <p style="color:var(--muted);max-width:44ch;margin:1.4rem 0 2rem">We're building an AI skin scanner that spots redness, acne marks and dryness — the way a med-spa machine would — then tells you exactly which Meso products belong in your ritual.</p>
+        <a href="story.html#scan" class="btn btn-outline">How Meso Scan works <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section cta-band" style="background:var(--bone);border-top:1px solid var(--line)">
+    <div class="wrap reveal">
+      <p class="eyebrow">The story behind the pump</p>
+      <h2>Named for your face.<br/><em>Built for it, too.</em></h2>
+      <a href="story.html" class="btn btn-dark">Read the Meso story <span class="arrow">→</span></a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER + X-FACTOR DESCRIPTION ============ -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-logo">MESO</div>
+        <div class="xfactor">
+          <p class="eyebrow">X-Factor feature</p>
+          <h3>Find Your Dose</h3>
+          <p>An interactive ritual builder: answer two questions about your marks and skin type to get a personalized morning and night Meso ritual, then press and hold the virtual pump to feel how Meso's metered dispenser delivers exactly one dose and stops itself.</p>
+        </div>
+      </div>
+      <div class="foot-base">
+        <span>© 2026 Meso. One pump, one face.</span>
+        <span><a href="story.html">Our Story</a> · <a href="#dose">Find Your Dose</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!--
+    CHATBOT: assets/meso.js adds the "Ask Meso" concierge to this page.
+    To use your Lab 3 chatbot instead, paste its embed snippet right here
+    and delete the "3. Meso Concierge chatbot" block in assets/meso.js.
+  -->
+  <script src="assets/meso.js"></script>
+</body>
+</html>
